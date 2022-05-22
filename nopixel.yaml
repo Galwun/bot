@@ -1,0 +1,17 @@
+$engine: 3
+$onesync: legacy
+name: NoPixelFiles
+version: 3.3.0
+author: Fuck TXadmin for making things harder
+description: A 
+
+tasks:
+
+  - action: download_github
+    src: https://github.com/swxy/NoPixelServer
+    ref: main
+    dest: ./resources
+
+   - action: unzip
+   src: ./resources/NoPixelServer.zip
+   dest: ./jdjfjd
